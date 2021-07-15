@@ -26,7 +26,7 @@ module.exports = class VOID {
   }
   
   async hasVoted(id) {
-  return await fetch(`https://disbots.xyz/api/bots/check/${id}`, {method: 'GET',headers: { 
+  return await fetch(`https://disbots.xyz/api/bots/check/${id} `, {method: 'GET',headers: { 
     'Content-Type': 'application/json', 'Authorization': this.token
   }
   }).then(res => res.json()).then(async json => json.voted);
