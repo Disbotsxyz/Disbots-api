@@ -1,0 +1,30 @@
+{
+  "name": "disbots",
+  "version": "1.0.2",
+  "description": "A official disbots.xyz api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/disbotsxyz/disbots-api"
+},
+  "keywords": [
+    "bot",
+    "list",
+    "discord",
+    "dbl",
+    "disbots",
+    "api",
+    "bots",
+    "vote",
+    "check",
+    "vote",
+    "control",
+    "force",
+    "vote"
+    ],
+  "author": "G∙MAX",
+  "license": "MIT"
+}
