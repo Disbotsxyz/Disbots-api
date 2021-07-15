@@ -112,3 +112,7 @@ client.on("ready", async () => {
 });
 
 ```
+# Questions?
+Come talk to us here:
+
+[![Disbots.xyz](https://discord.com/api/guilds/852825880271257611/embed.png?style=banner1)](https://discord.gg/YhTU6Akzmy)
