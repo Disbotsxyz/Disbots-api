@@ -9,7 +9,7 @@
 
 
 ## Installation
-*If you have trouble with the installation, please feel free to visit our [discord](https://discord.gg/YhTU6Akzmy) address.*
+*If you have trouble with the installation, please feel free to visit our [discord](https://discord.gg/m5vUJVztpt) address.*
 - `npm i disbots-xyz`
 
 #### 1. Where can I get DisBots.xyz api?
