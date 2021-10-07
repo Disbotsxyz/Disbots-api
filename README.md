@@ -41,15 +41,18 @@ client.on("ready", async () => {
   ### Python: 
 ```py
 from disbots import disbots
-from discord.ext import commands
+from discord.ext import commands, tasks
 
 client = commands.Bot(command_prefix="!") 
 dbl = disbots(client,"token of disbots")
 
+@tasks.loop(minutes = 10)
+async def postservercount():
+  await dbl.serverCountPost()
+
 @client.event
 async def on_ready():
-  x = await dbl.serverCountPost()
-  print(x)
+  postservercount.start()
 
 client.run("token") 
 
